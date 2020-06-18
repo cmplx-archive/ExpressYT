@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.min.css">
+    <title>Nexus Player</title>
+</head>
+
+<body>
+    <div class="bgimg"></div>
+    <div class="content">
+        <div class="searchbox">
+            <input class="input bigtext" placeholder="Search on YouTube"><button
+                class="convert-button bigbutton bigtext">Play</button>
+        </div>
+        <div class="slidecontainer">
+            <canvas class="buffering"></canvas>
+            <button class="circularbtn bigtext play-button"><i class="fas fa-play pauseplay"></i></button>
+            <span class="current text">0:00</span>
+            <input type="range" min="0" max="100" value="0" class="playslider slider">
+            <span class="duration text">0:00</span>
+            <button class="replay-button circularbtn"><i class="fas fa-undo"></i></button>
+            <button class="download-button circularbtn"><i class="fas fa-download"></i></button>
+            <div class="volume">
+                <button class="volume-btn circularbtn"><i class="fas fa-volume-up"></i></button>
+                <div class="volume-controls hidden">
+                    <input type="range" min="0" max="100" value="100" class="volume-slider slider">
+                </div>
+            </div>
+            <p class="song-name text">Nothing Playing</p>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/5dc4382453.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src='script.js'></script>
+</body>
+
+</html>

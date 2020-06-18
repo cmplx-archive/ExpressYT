@@ -1,0 +1,46 @@
+* {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.searchbox .input {
+  border-radius: 4px 0px 0px 4px;
+  width: 40%;
+  text-align: left;
+  border: 2px solid #8b8b8b;
+  background: #EEEEEE;
+  outline: none;
+}
+
+.searchbox .input:focus {
+  border: 2px solid #ec0c0c;
+  -webkit-box-shadow: 0 0 3px 0px #b02222;
+          box-shadow: 0 0 3px 0px #b02222;
+}
+
+.searchbox .convert-button {
+  border-radius: 0px 4px 4px 0px;
+}
+
+.searchbox .bigbutton {
+  border: 2px solid #ec0c0c;
+  background: #ec0c0c;
+  color: white;
+}
+
+.searchbox .bigbutton:active {
+  -webkit-box-shadow: 0 0 3px 0px #ec0c0c;
+          box-shadow: 0 0 3px 0px #ec0c0c;
+}
+
+.searchbox .bigbutton:focus {
+  outline: none;
+}
+
+.searchbox .bigtext {
+  font-size: 2.5vh;
+  padding: 5px 10px;
+  margin: 10px 0px;
+}
+/*# sourceMappingURL=style.css.map */
